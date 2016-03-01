@@ -25,9 +25,17 @@ body {
     color: white;
 }
 
+.bar {
+    height: 75px;
+    margin: 10px;
+    color: white;
+    overflow: inherit;
+    text-align: center;
+}
+
 .searchbar {
 	text-align: right;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .filter-box {
@@ -38,7 +46,6 @@ body {
     border-style: solid;
     color: white;
   	font-family: 'Helvetica', sans-serif;
-
 }
 
 .textbox {
@@ -53,6 +60,7 @@ body {
   	color: white;
 	font-size: 18px;
 	background: none;
+    margin: 2px;
 }
 
 input[type=submit] {
@@ -89,4 +97,19 @@ a {
 #votelocal {
     float:left;
     margin-left: 10px;
+}
+
+.filterbox {
+	width: 40%;
+	opacity: 0.8;
+ 	height: 40px;
+  	padding: 0 46px 0 10px;
+  	border: solid 2px #ffffff;
+  	border-radius: 35px; /* (height/2) + border-width */
+ 	margin-top: 0px;
+  	font-family: 'Helvetica', sans-serif;
+  	color: white;
+	font-size: 18px;
+	background: none;
+    margin: 2px;
 }

@@ -4,20 +4,21 @@
         <script src="toolbar.js"></script>
 	</head>
 	<body>
-        <div style="clear: both;">
+        <div class="bar" style="clear: both;">
             <div class="searchbar" style="clear: right;">
                 <div ID= "votelocal"><img src="http://i.imgur.com/f8h7k7o.png" onclick="gohome()"></div>
                 <input class="textbox" type="search" placeholder="Enter a city, zip code, or politician name" id="searchtxt" >
                 <input class="sub" type="submit" value="Search" onclick="search()"/>
             </div>
+            
         </div>
-        <div style="clear: both;"> 
+        <div class="bar" style="clear: both;"> 
             <div style="float: left; margin-left: 10px;">
                 <h1>Search Results for: "60201"</h1>
             </div>
             <div style="float: right">
-            <div class="filter-box" style="margin-right: 10px;">
-                    <form class="filter" action="">
+                <div class="filter-box" style="margin-right: 10px;">
+                    <form class="filter" action="">    
                         <input ID="choice1" type="checkbox" name="Environment" value="Environment">Environment &nbsp;
                         <input ID="choice2" type="checkbox" name="Economics" value="Economics">Economics &nbsp;
                         <input ID="choice3" type="checkbox" name="Public-Safety" value="Public-Safety">Public Safety &nbsp;
