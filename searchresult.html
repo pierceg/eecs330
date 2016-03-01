@@ -1,4 +1,3 @@
-
 <html>
 	<head>
         <link rel="stylesheet" type="text/css" href="searchresult.css">
@@ -12,10 +11,22 @@
                 <input class="sub" type="submit" value="Search" onclick="search()"/>
             </div>
         </div>
-        <div style="clear: left; margin-left: 10px;">
-            <h1>Search Results for: "60201"</h1>
+        <div style="clear: both;"> 
+            <div style="float: left; margin-left: 10px;">
+                <h1>Search Results for: "60201"</h1>
+            </div>
+            <div style="float: right">
+            <div class="filter-box" style="margin-right: 10px;">
+                    <form class="filter" action="">
+                        <input ID="choice1" type="checkbox" name="Environment" value="Environment">Environment &nbsp;
+                        <input ID="choice2" type="checkbox" name="Economics" value="Economics">Economics &nbsp;
+                        <input ID="choice3" type="checkbox" name="Public-Safety" value="Public-Safety">Public Safety &nbsp;
+                        <input ID="choice4" type="checkbox" name="Diversity" value="Diversity">Diversity &nbsp;
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="results-box">
+        <div class="results-box" style="clear: both;">
             <p style="float: left; margin: 10px;"><img src="http://i.imgur.com/KjWOgFM.jpg" alt="tisdahl" width="150" ></p>
             <p><h2><a href="tisdahl.html">Elizabeth B. Tisdahl</a></h2></p>
             <p>Position: Mayor of the Evanston City Council</p>
